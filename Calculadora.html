@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Danny Chucos">
+  <meta name="description" content="primera calculadora">
+  <meta name="application-name" content="Calculadora">
+  <title>Primera calculadora</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\HP PC\Desktop\Códigos Danny\Front-end\cssReset.css">
+  <link rel="stylesheet" type="text/css" href="EstiloCalcu.css">
+</head>
+<body>
+  <form>
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="4"><input type="text" name="visor" placeholder="0" id="muestraNum" style="margin-bottom:5px;" disabled></td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="text" name="visor" id="muestraResult" style="margin-bottom:5px;" disabled></td>
+        </tr>
+        <tr>
+          <td><input name="botonC" type="button" value="C" id="clearDisp"/></td>
+          <td><input type="button" value="(" id="parentIn"></td>
+          <td><input type="button" value=")" id="parentOut"></td>
+          <td><input type="button" value="*" id="producto"></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="7" class="numero"></td>
+          <td><input type="button" value="8" class="numero"></td>
+          <td><input type="button" value="9" class="numero"></td>
+          <td><input type="button" value="/" id="divide"></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" class="numero"></td>
+          <td><input type="button" value="5" class="numero"></td>
+          <td><input type="button" value="6" class="numero"></td>
+          <td><input type="button" value="+" id="adicion"></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="1" class="numero"></td>
+          <td><input type="button" value="2" class="numero"></td>
+          <td><input type="button" value="3" class="numero"></td>
+          <td><input type="button" value="-" id="resta"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" value="0" class="numero"></td>
+          <td><input type="button" value="." id="puntDec"></td>
+          <td><input type="button" value="=" id="igual"></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+  <script src="CalcuJs.js"></script>
+</body>
+</html>
